@@ -178,4 +178,40 @@ header, .header-section * {
     width: 450px;
     height: auto;
 }
+
+/* Features Section */
+.features-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.features-section__inner {
+    display: flex;
+}
+.features__list {
+
+}
+.features_item {
+
+}
+.features__card {
+
+}
+.features__card-media-wrapper {
+
+}
+.features__card-media {
+    width: 150px;
+    height: auto;
+}
+.features__card-text-wrapper {
+
+}
+.features__card-heading {
+
+}
+.features__card-text {
+
+}
 /************** ID Stles **************/
