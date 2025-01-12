@@ -20,6 +20,14 @@
     font-family: Roboto, Verdana, sans-serif;
     font-size: 16px;
     background-color: rgb(240, 240, 240);
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -42,6 +50,16 @@ h4 {
     font-weight: 700;
 }
 
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
 a {
     color: #d7ff00;
 }
@@ -53,11 +71,11 @@ button {
 
     border: 2px solid rgb(240, 240, 240);
     border-radius: 5px;
+    padding: 0.5rem 1rem;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+img {
+    border-radius: 5px;
 }
 
 /************** Section Styling **************/
@@ -81,7 +99,6 @@ body {
 /* Header Section */
 .header-section {
     height: 100px;
-    margin: 0;
     padding: 0;
 }
 header, .header-section * {
@@ -91,6 +108,7 @@ header, .header-section * {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 /*.header__logo-wrapper {
     
@@ -121,24 +139,37 @@ header, .header-section * {
 /* Hero Section */
 .hero-section, .hero-section * {
     background-color: rgb(40, 40, 40);
+    color: white;
 }
 .hero-section__inner {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 7.5rem 0rem;
 }
-.hero-section__content {
+.hero-section__content-wrapper {
+    display: flex;
+    flex-direction: column;
 
+    min-width: 375px;
+    max-width: 450px;
+    gap: 1rem;
 }
-.hero-section__header {
-
-}
+/*.hero-section__heading {
+    
+}*/
 .hero-section__text {
-
+    font-weight: 300;
 }
-.hero-section__cta-wrapper {
+/*.hero-section__cta-wrapper {
 
-}
-.hero-section__cta {
-
+}*/
+.hero-section .hero-section__cta {
+    /*background-color: #d7ff00;*/
+    color: #d7ff00;
+    border-color: #d7ff00;
 }
 /*.hero-section__media-wrapper {
 
