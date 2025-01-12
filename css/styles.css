@@ -304,4 +304,24 @@ header, .header-section * {
     border-color: rgb(27, 27, 27);
     width: max-content;
 }
+
+/*** Footer Section ***/
+.footer-section {
+
+}
+.footer-section * {
+    
+}
+.footer-section__inner {
+
+}
+.footer-nav {
+
+}
+.footer-nav__item {
+
+}
+.footer-copyright {
+
+}
 /************** ID Stles **************/
