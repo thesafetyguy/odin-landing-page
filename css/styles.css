@@ -55,22 +55,67 @@ button {
     border-radius: 5px;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /************** Section Styling **************/
-section {
+.section {
     width: 100%;
     margin: 0;
-    padding: 20px; /* gutter */
+    padding: 0;
 
     display: flex;
     justify-content: center;
 }
 
 .container {
+    width: 1280px;
+    min-width: 420;
     max-width: 1280px;
     padding: 1rem;
 }
 
 
 /************** Class Styles **************/
+.header-section {
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+header, .header-section * {
+    background-color: rgb(40, 40, 40)
+}
+.header-section__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*.header__logo-wrapper {
+    
+}*/
+.header__logo {
+    width: 175px;
+    height: auto;
+}
+/*.header__nav {
+
+}*/
+.header__nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 1rem;
+}
+/*.header__nav-item {
+    
+}*/
+.header__nav-link {
+    text-decoration: none;
+    color: rgb(240, 240, 240)
+}
 
 /************** ID Stles **************/
