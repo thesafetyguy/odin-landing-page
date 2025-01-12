@@ -321,7 +321,11 @@ header, .header-section * {
     justify-content: center;
     align-items: center;
 
-    gap: 2rem;
+    gap: 3rem;
+}
+.footer-section__media {
+    width: 300px;
+    height: auto;
 }
 .footer-nav {
     list-style: none;
