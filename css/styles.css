@@ -65,7 +65,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-
+    
     display: flex;
     justify-content: center;
 }
@@ -73,12 +73,12 @@ body {
 .container {
     width: 1280px;
     min-width: 420;
-    max-width: 1280px;
+    max-width: 1000px;
     padding: 1rem;
 }
 
-
 /************** Class Styles **************/
+/* Header Section */
 .header-section {
     height: 100px;
     margin: 0;
@@ -118,4 +118,33 @@ header, .header-section * {
     color: rgb(240, 240, 240)
 }
 
+/* Hero Section */
+.hero-section, .hero-section * {
+    background-color: rgb(40, 40, 40);
+}
+.hero-section__inner {
+
+}
+.hero-section__content {
+
+}
+.hero-section__header {
+
+}
+.hero-section__text {
+
+}
+.hero-section__cta-wrapper {
+
+}
+.hero-section__cta {
+
+}
+/*.hero-section__media-wrapper {
+
+} */
+.hero-section__media {
+    width: 450px;
+    height: auto;
+}
 /************** ID Stles **************/
