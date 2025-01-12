@@ -26,5 +26,9 @@ It's also hard to achieve when you jump in without
 planning. I might come back and refactor this later
 and try to tidy up the existing classes to see what
 is reuseable. I did what I could in a rush.
-0;9u
+
 Thanks for your coming to my TedTalk! Enjoy.
+
+post-note: I recognize I messed up making the buttons
+not be links and not setting them up appropriately.
+I may fix this later. I may not. We'll see.
