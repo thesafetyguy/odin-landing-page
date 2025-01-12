@@ -97,7 +97,7 @@ img {
 }
 
 /************** Class Styles **************/
-/* Header Section */
+/*** Header Section ***/
 .header-section {
     height: 100px;
     padding: 0;
@@ -137,7 +137,7 @@ header, .header-section * {
     color: rgb(240, 240, 240)
 }
 
-/* Hero Section */
+/*** Hero Section ***/
 .hero-section, .hero-section * {
     background-color: rgb(40, 40, 40);
     color: white;
@@ -184,7 +184,7 @@ header, .header-section * {
     box-shadow: 0 0 25px 0 rgb(27, 27, 27);
 }
 
-/* Features Section */
+/*** Features Section ***/
 .features-section {
     display: flex;
     flex-direction: column;
@@ -212,7 +212,6 @@ header, .header-section * {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .features__card {
     display: flex;
     flex-direction: column;
@@ -238,10 +237,37 @@ header, .header-section * {
     padding: 1rem;
     border-radius: 0px 0px 5px 5px;
 }
-.features__card-heading {
+/*.features__card-heading {
 
-}
+}*/
 .features__card-text {
     border-radius: 0px 0px 5px 5px;
+}
+
+/*** Testimonial Section ***/
+.testimonial-section {
+    display: flex;
+    padding: 4rem 0;
+}
+.testimonial-section, .testimonial-section * {
+    background-color: rgb(40, 40, 40);
+}
+/*.testimonial-section__inner {
+    
+}*/
+.blockquote {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.blockquote__quote {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(200, 200, 200);
+}
+.blockquote__author {
+    font-weight: 700;
+    color: white;
+    text-align: right;
 }
 /************** ID Stles **************/
