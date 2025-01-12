@@ -1,0 +1,76 @@
+/************** Global Styles **************/
+/*Pretend these are tokens*/
+/*--bg-light    rgb(240, 240, 240)  */
+/*--bg-dark     rgb(40, 40, 40)     */
+/*--primary     #d7ff00             */
+/*--secondary   #ff8000             */
+/*--text-xl     48px                */
+/*--text-l      36px                */
+/*--text-m      24px                */
+/*--text-s      18px                */
+/*--text-xs     16px                */
+/*--radius      5px                 */
+/*--gap-xl                          */
+/*--gap-l                           */
+/*--gap-m                           */
+/*--gap-s                           */
+/*--gap-xs                          */
+
+* {
+    font-family: Roboto, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: rgb(240, 240, 240);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a {
+    color: #d7ff00;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ff8000;
+
+    border: 2px solid rgb(240, 240, 240);
+    border-radius: 5px;
+}
+
+/************** Section Styling **************/
+section {
+    width: 100%;
+    margin: 0;
+    padding: 20px; /* gutter */
+
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 1rem;
+}
+
+
+/************** Class Styles **************/
+
+/************** ID Stles **************/
