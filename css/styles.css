@@ -275,7 +275,7 @@ header, .header-section * {
 
 /*** CTA Section ***/
 .cta-section {
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 .cta-section__inner {
     display: flex;
@@ -307,21 +307,40 @@ header, .header-section * {
 
 /*** Footer Section ***/
 .footer-section {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 
+    box-shadow: 0 0 15px 0 rgb(221, 221, 221);
 }
-.footer-section * {
-    
-}
+/*.footer-section * {
+
+}*/
 .footer-section__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    gap: 2rem;
 }
 .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
+    display: flex;
+    gap: 1rem;
 }
-.footer-nav__item {
+/*.footer-nav__item {
 
+}*/
+.footer-nav__link {
+    text-decoration: none;
+    color: #ff8000;
 }
 .footer-copyright {
-
+    font-size: 14px;
+    font-style: italic;
+    color:rgb(90, 90, 90)
 }
 /************** ID Stles **************/
